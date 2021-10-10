@@ -10,15 +10,15 @@ body{
 a{
     text-decoration: none;}
 
-    .scroll_effect{
-        background-image: url("restaurant1.jpg");
-        position: relative; 
-        height: 395px ; 
-        background-attachment:fixed;
-        background-repeat: no-repeat;
-        padding-right: 00px;
-       background-size: 720px 532px;
-       background-position-x: 45px;
-       width: 670px;
-       top: 7px;
-      }
+.scroll_effect{
+    background-image: url("restaurant1.jpg");
+    position: relative; 
+    height: 395px ; 
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    padding-right: 00px;
+    background-size: 720px 532px;
+    background-position-x: 45px;
+    width: 670px;
+    top: 7px;
+    }
