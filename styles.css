@@ -5,9 +5,7 @@ body{
     
 }
 
-
-a{
-    text-decoration: none;}
+a{text-decoration: none;}
 
 .scroll_effect{
     background-image: url("restaurant1.jpg");
@@ -22,17 +20,17 @@ a{
     top: 7px;
     }
 
-    .parallax {
-        /* The image used */
-        background-image: url("airplane\ 2.jpg");
-      
-        /* Set a specific height */
-        min-height: 500px;
-      
-        /* Create the parallax scrolling effect */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-          opacity: 0.9;
-      }
+.parallax {
+    /* The image used */
+    background-image: url("airplane\ 2.jpg");
+    
+    /* Set a specific height */
+    min-height: 500px;
+    
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+        opacity: 0.9;
+    }
