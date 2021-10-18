@@ -10,6 +10,22 @@
         body {
             color: #fff;
         }
+
+        .lin {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #00A0C6;
+            text-decoration: none;
+            cursor: pointer;
+        }
     </style>
     <link href="https://getbootstrap.com/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -19,21 +35,24 @@
 
 <body>
     <div class="all">
-        <h2 class="class11" style="background-color: rgb(50, 164, 240);
+        <h3 class="class11" style="background-color: rgb(50, 164, 240); padding: 10px;
         color: #fff;">
-            <div style="height: 10px; background-color: #EAEFF5"></div>
-            <a href="people.html"> People &nbsp &nbsp&nbsp&nbsp</a> <a href="#content">Content &nbsp &nbsp&nbsp&nbsp</a>
-            <a href="external.html"> External Documents &nbsp</a>
-            <div style="height: 10px; background-color: #EAEFF5"></div>
+            <div style="height: 10px;"></div>
+            <a href="index.html" class="lin"> Home &nbsp &nbsp&nbsp&nbsp</a> <a href="people.html" class="lin"> People
+                &nbsp &nbsp&nbsp&nbsp</a> <a href="background.html" class="lin"> Background &nbsp &nbsp&nbsp&nbsp</a> <a
+                href="project.html" class="lin"> Project &nbsp &nbsp&nbsp&nbsp</a> <a href="#content"
+                class="lin">Content &nbsp &nbsp&nbsp&nbsp</a>
+            <a href="external.html" class="lin"> External Documents &nbsp</a>
+            <div style="height: 10px; "></div>
 
-        </h2>
+        </h3>
         <div class="row text-center">
             <div class="col">
                 <div class="parallax" id="Introduction">
-                    <div class="col" style="color:#000000">
+                    <div class="col">
                         </br>
                         </br>
-                        <h1 style="color:#000000">Deep Learning Based Autopilot System using X Plane 11</h1>
+                        <h1>Deep Learning Based Autopilot System using X Plane 11</h1>
                         <h2>Welcome to CSCI 527: Machine Learning for Games</h2>
                         <h5>
                             </br>
@@ -57,7 +76,20 @@
                 </div>
             </div>
         </div>
-        <br>
+        <div>
+            We use 2 algorithms Reinforcment Learning and Deep Deterministic Policy Gradient. 
+            <div>
+                <h2>Reinforcment Learning</h2>
+                <h4>
+
+                </h4>
+                <h2>Deep Deterministic Policy Gradient.</h2>
+                <h4>
+                    DDPG is a reinforcement learning technique that combines both Q-learning and Policy gradients. DDPG is an actor-critic technique wherein the actor is a policy network that takes the state as input and outputs the exact action (continuous), instead of a probability distribution over actions. The critic is a Q-value network that takes in state and action as input and outputs the Q-value. DDPG is an “off”-policy method. DDPG is used in the continuous action setting and the “deterministic” in DDPG refers to the fact that the actor computes the action directly instead of a probability distribution over actions.
+DDPG is used in a continuous action setting and is an improvement over the vanilla actor-critic.
+                </h4>
+            </div>
+        </div>
     </div>
 </body>
 
