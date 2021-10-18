@@ -2,12 +2,11 @@ body{
     margin:15;
     /* background-color: burlywood; */
     text-align: center;
+    color: #fff;
     
 }
 
-.ProjectName{
-    color: brown;
-}
+
 a{
     text-decoration: none;}
 
