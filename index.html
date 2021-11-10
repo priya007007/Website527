@@ -7,16 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-       
-
-        .lin {
-            text-decoration: none;
-            color: #fff;
-        }
-
         a {
-            color: #fff;
             text-decoration: none;
+            color: #fff;
         }
 
         a:hover {
@@ -24,61 +17,272 @@
             text-decoration: none;
             cursor: pointer;
         }
+
+        .scroll_effect {
+            background-image: url("restaurant1.jpg");
+            position: relative;
+            height: 395px;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            padding-right: 00px;
+            background-size: 720px 532px;
+            background-position-x: 45px;
+            width: 670px;
+            top: 7px;
+        }
+
+        .parallax {
+            /* The image used */
+            background-image: url("plane 1.png");
+
+            /* Set a specific height */
+            min-height: 500px;
+
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            opacity: 0.9;
+        }
+
+        .lin {
+            text-decoration: none;
+            color: #fff;
+        }
+
+
+        .all,
+        .class4,
+        .he {
+            background-color: #022261;
+            color: #00ebc4;
+        }
+
+        /* .center11 {
+            text-align: center;
+        } */
+
+        .subheadings {
+            padding-left: 30px;
+            background-color: #022261;
+            color: #00ebc4;
+            font-weight: bold;
+            font-size: 50px;
+            background: dotted #00ebc4 bold;
+            border-top: 1px solid #00ebc4;
+
+            border-bottom: 1px solid #00ebc4;
+        }
+
+        .test1 {
+            display: flex;
+            align-items: center;
+        }
+
+        .name {
+            font-size: 30px;
+            font-style: bold;
+            text-decoration: none;
+            color: #00ebc4;
+
+        }
+        .center11{
+            text-align: center;
+        }
     </style>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <!--solved -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <!--solved -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js></script>
     <link href="https://getbootstrap.com/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="styles.css">
+
+
+
+
+    <link href="https://getbootstrap.com/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- font awesomeness -->
+    <link rel="stylesheet" href="font-awesome-4.7.0\font-awesome-4.7.0\css\font-awesome.min.css">
+
+    <!-- <link rel="stylesheet" href="styles.css"> -->
 </head>
 
 <body>
     <div class="all">
-        <h3 class="class11" style="background-color: rgb(8, 34, 82); padding: 10px;
-        color: #fff;">
-            <div style="height: 10px;"></div>
-            <a href="index.html" class="lin"> Home </a> &nbsp&nbsp&nbsp&nbsp <a href="people.html" class="lin"> People
-            </a> &nbsp&nbsp&nbsp&nbsp <a href="background.html" class="lin"> Background </a> &nbsp&nbsp&nbsp&nbsp <a
-                href="project.html" class="lin"> Project Flow</a> &nbsp&nbsp&nbsp&nbsp 
-            <a href="external.html" class="lin"> External Documents &nbsp</a>
-            <div style="height: 10px; "></div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">Deep Learning Based Autopilot System</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        </h3>
-        <div class="row text-center">
-            <div class="col">
-                <div class="parallax" id="Introduction">
-                    <div class="col" style="color: black;">
-                        </br>
-                        </br>
-                        <h1>Deep Learning Based Autopilot System using X Plane 11</h1>
-                        <h2>Welcome to CSCI 527: Machine Learning for Games</h2>
-                        <h5>
-                            </br>
-                            </br>
-                            </br>
-                            Establishing autonomous flights will have big consequences for future and the way the
-                            aviation industry works. Keeping this in mind, we will explore the possibility of autonomous
-                            air transport using Machine Learning Algorithms
-                            </br>
-                            <b>Goal:</b>To be able to train Autopilot RL agents using neural networksand Policy Gradient
-                            algorithms.
-                            </br>
-                        </h5>
-                        </br>
-                        </br>
-                        <img src="plane 1.png" alt="pokemon showdown gif" />
-                        <center>
-                            <h5>Image: Mid Training</h5>
-                        </center>
-                    </div>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#class1">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="AboutMe.html">Project Documentation</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="interest.html">Demo</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#class4">People</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row class1">
+                <h1>Deep Learning Based Autopilot System using X Plane 11</h1>
+                <div>
+                    Establishing autonomous flights will have big consequences for future and the way the
+                    aviation industry works. Keeping this in mind, we will explore the possibility of autonomous
+                    air transport using Machine Learning Algorithms
+                    </br>
+                    <b>Goal:</b>To be able to train Autopilot RL agents using neural networksand Policy Gradient
+                    algorithms.
+                    </br>
+                </div>
+                <h2>What is expected</h2>
+                <div>The goal of this project is to be able to train Autopilot RL agents using neural networksand
+                    Policy
+                    Gradient algorithms. The proposed autopilot should be able to performvarious aircraft maneuvers
+                    such
+                    as
+                    descent/ascent and left/right turns as required bya given flight plan. During the course of this
+                    project, we will explore different RLstrategies in order to determine the most suitable approach
+                    for
+                    our
+                    particular use-casevis- ́a-vis a comparative analysis.
+                </div>
+                <br>
+            </div>
+        </div>
+        <div class="col">
+            <div class="parallax" id="Introduction">
+                <div class="col" style="color: black;">
+                    </br>
+                    </br>
+                    <!-- <img src="plane 1.png" alt="pokemon showdown gif" /> -->
+
                 </div>
             </div>
         </div>
-        <div>
-            <h2>What is expected</h2>
-            <div>The goal of this project is to be able to train Autopilot RL agents using neural networksand  Policy  Gradient  algorithms.   The  proposed  autopilot  should  be  able  to  performvarious aircraft maneuvers such as descent/ascent and left/right turns as required bya  given  flight  plan.   During  the  course  of  this  project,  we  will  explore  different  RLstrategies in order to determine the most suitable approach for our particular use-casevis- ́a-vis a comparative analysis.</div>
-          
+    </div>
+    <div class="he" style="height: 10px;"></div>
+    <div class="subheadings">Project Documentation</div>
+    <div class="he" style="height: 10px;"></div>
+
+    <div class="row he">
+        <div class="col-lg-4 text-center">
+            <iframe src="CS_527___Engineering_Design_Document_v1_0.pdf" style="width:400px; height:500px;"
+                frameborder="0"></iframe>
+            <div class="name center11"> <a href="CS_527___Engineering_Design_Document_v1_0.pdf" target="_blank">Engineering Design Document</a> </div>
+        </div>
+
+
+        <div class="col-lg-4 text-center">
+            <iframe src="CS_527___Technical_Paper_v1_0.pdf" style="width:400px; height:500px;" frameborder="0"></iframe>
+            <div class="name center11"> <a href="CS_527___Technical_Paper_v1_0.pdf" target="_blank">Technical Paper</a> </div>
+
+        </div>
+        <div class="col-lg-4 text-center">
+            <iframe src="Master Slides - XPlane Autopilot (pdf).pdf" style="width:400px; height:500px;" frameborder="0"></iframe> 
+            <div class="name center11"> <a href="Master Slides - XPlane Autopilot (pdf).pdf" target="_blank">Presentation</a> </div>
+
         </div>
     </div>
+
+
+    <div class="he" style="height: 10px;"></div>
+    <div class="subheadings">Demo</div>
+    <div class="he" style="height: 10px;"></div>
+ 
+    
+
+    <!-- <iframe src="" style="width:500px; height:400px;" frameborder="0"></iframe>
+        <iframe src="Master Slides - XPlane Autopilot.ppt" style="width:600px; height:500px;" frameborder="0"></iframe> -->
+    <div class="he" style="height: 10px;"></div>
+    <div class="subheadings">People</div>
+    <!-- people -->
+    <div class="class4">
+        <div style="height: 10px;"></div>
+        <!-- row 1 teamMates -->
+        <div class="row">
+            <div class="col-lg-4 center11">
+                <img class="rounded-circle" src="Martin 527.jpeg" alt="Generic placeholder image" width="140"
+                    height="140">
+                <h2>He Huang</h2>
+                <p>USC Master of Science, Computer Science in Intelligent Robotics
+                </p>
+                <p><a class="btn btn-primary" href="https://www.linkedin.com/in/he-martin-huang-199a02136"
+                        target="_blank" role="button"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a>
+                </p>
+            </div>
+
+            <div class="col-lg-4 center11">
+                <img class="rounded-circle" src="Bookstore Profile Pic.jpg" alt="Generic placeholder image" width="140"
+                    height="140">
+                <h2>Rengapriya Aravindan</h2>
+                <p>USC Master of Science, Computer Science</p>
+                <p><a class="btn btn-primary" href="https://www.linkedin.com/in/rengapriya-aravind/" target="_blank"
+                        role="button">Linkedin</a></p>
+
+            </div>
+
+            <div class="col-lg-4 center11">
+                <img class="rounded-circle" src="Oneeb 527.jpeg" alt="Generic placeholder image" width="140"
+                    height="140">
+                <h2>Oneeb Khan</h2>
+                <p>USC Master of Science, Computer Science</p>
+                <p><a class="btn btn-primary" href="https://www.linkedin.com/in/oneebhkhan/" target="_blank"
+                        role="button">Linkedin</a></p>
+
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+        <div class="row">
+            <div class="col-lg-4 center11">
+                <img class="rounded-circle" src="rizwan malik 527.jpg" alt="Generic placeholder image" width="140"
+                    height="140">
+                <h2>Rizwan Malik</h2>
+                <p> USC Master of Science, Computer Science</p>
+                <p><a class="btn btn-primary" href="https://www.linkedin.com/in/rizwanmalik89/" target="_blank"
+                        role="button">Linkedin</a></p>
+            </div>
+            <div class="col-lg-4 center11">
+                <img class="rounded-circle" src="Krishnateja 527.jpeg" alt="Generic placeholder image" width="140"
+                    height="140">
+                <h2>Krishnateja Gunda</h2>
+                <p> USC Master of Science, Computer Science</p>
+                <p><a class="btn btn-primary" href="https://www.linkedin.com/in/krishnatejagunda2205/" target="_blank"
+                        role="button">Linkedin</a></p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
 </body>
 
 </html>

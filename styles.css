@@ -1,9 +1,4 @@
-body{
-    margin:15;
-    /* background-color: burlywood; */
-    text-align: center;
-    
-}
+
 
 a{text-decoration: none;}
 
@@ -22,7 +17,7 @@ a{text-decoration: none;}
 
 .parallax {
     /* The image used */
-    background-image: url("airplane\ 2.jpg");
+    background-image: url("plane 1.png");
     
     /* Set a specific height */
     min-height: 500px;
