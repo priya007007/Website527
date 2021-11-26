@@ -1,31 +1,91 @@
 
+.navbar-custom {
+	background-color: #00ebc4;
 
-a{text-decoration: none;}
+}
 
-.scroll_effect{
-    background-image: url("restaurant1.jpg");
-    position: relative; 
-    height: 395px ; 
-    background-attachment:fixed;
-    background-repeat: no-repeat;
-    padding-right: 00px;
-    background-size: 720px 532px;
-    background-position-x: 45px;
-    width: 670px;
-    top: 7px;
-    }
+.navbar-custom .navbar-text {
+	color: #fff;
+	text-decoration: none;
+}
 
-.parallax {
-    /* The image used */
-    background-image: url("plane 1.png");
-    
-    /* Set a specific height */
-    min-height: 500px;
-    
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-        opacity: 0.9;
-    }
+.nav-link {
+	color: #000000;
+}
+
+.nav-link:hover {
+	color: black;
+}
+
+.all {
+	background-color: #022261;
+	color: #00ebc4;
+}
+
+h1 {
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+p.intro, p.about {
+	color: #fff;
+	margin-bottom: 0px;
+	font-size: 16px;
+}
+
+p.about {
+	margin-bottom: 10px;
+}
+
+.subheadings {
+	background-color: #022261;
+	color: #00ebc4;
+	font-weight: bold;
+	font-size: 30px;
+	background: dotted #00ebc4 bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.spans {
+	color: magenta;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.spans:hover {
+	color: #fff
+}
+
+.center11 {
+	text-align: center;
+}
+
+.people {
+	padding-bottom: 15px;
+}
+
+.name {
+	margin-top: 10px;
+}
+
+.name a {
+	/* text-decoration: underline; */
+	/* font-weight: bold; */
+	color: #fff;
+	font-size: 16px;
+}
+
+.name {
+	font-size: 15px;
+	font-style: bold;
+	text-decoration: none;
+	color: #ffffff;
+
+}
+
+.name a:hover {
+	text-decoration: none;
+	font-weight: bold;
+	color: magenta;
+}

@@ -6,119 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+	<link rel="stylesheet" href="styles.css">
     <style>
-        a {
-            text-decoration: none;
-            color: #fff;
-        }
-
-        a:hover {
-            color: #00A0C6;
-            text-decoration: none;
-            cursor: pointer;
-        }
-
-        .scroll_effect {
-            background-image: url("restaurant1.jpg");
-            position: relative;
-            height: 395px;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            padding-right: 00px;
-            background-size: 720px 532px;
-            background-position-x: 45px;
-            width: 670px;
-            top: 7px;
-        }
-
-        .parallax {
-            /* The image used */
-            background-image: url("plane 1.png");
-
-            /* Set a specific height */
-            min-height: 500px;
-
-            /* Create the parallax scrolling effect */
-            background-attachment: fixed;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            opacity: 0.9;
-        }
-
-        .lin {
-            text-decoration: none;
-            color: #fff;
-        }
-
-
-        .all,
-        .class4,
-        .he {
-            background-color: #022261;
-            color: #00ebc4;
-        }
-
-        /* .center11 {
-            text-align: center;
-        } */
-
-        .subheadings {
-            background-color: #022261;
-            color: #00ebc4;
-            font-weight: bold;
-            font-size: 30px;
-            background: dotted #00ebc4 bold;
-            /* border-top: 1px solid #00ebc4; */
-
-            /* border-bottom: 1px solid #00ebc4; */
-        }
-
-
-
-        .test1 {
-            display: flex;
-            align-items: center;
-        }
-
-        .name {
-            font-size: 15px;
-            font-style: bold;
-            text-decoration: none;
-            color: #ffffff;
-
-        }
-
-        .center11 {
-            text-align: center;
-        }
-
-
-        .navbar-custom {
-            background-color: #00ebc4;
-
-        }
-
-        .navbar-custom .navbar-text {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        .nav-link {
-            color: #000000;
-        }
-
-        .nav-link:hover {
-            color: black;
-        }
-
-        .spans {
-            color: magenta;
-        }
-
-        .spans:hover {
-            color: #fff
-        }
+       
     </style>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -165,61 +55,51 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#class1">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="AboutMe.html">Project Documentation</a>
+                        <a class="nav-link" href="#docs">Project Documentation</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="interest.html">Demo</a>
+                        <a class="nav-link" href="#demo">Demo</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#class4">People</a>
+                        <a class="nav-link" href="#team">People</a>
                     </li>
 
                 </ul>
             </div>
         </nav>
         <div class="container">
-            <div class="row class1">
-                <h1>Deep Learning Based Autopilot System using X Plane 11</h1>
-                <div style="color: #ffffff;">
-                    Establishing autonomous flights will have big consequences for future and the way the
+            <div class="row class1 home">
+                <h1>Reinforcement Learning Based Autopilot</h1>
+                <p class="intro">
+                    Establishing autonomous flights will have big consequences for the future and the way the
                     aviation industry works. Keeping this in mind, we will explore the possibility of autonomous
-                    air transport using Machine Learning Algorithms
-                    </br>
-                    <b>Goal:</b>To be able to train Autopilot RL agents using neural networksand Policy Gradient
-                    algorithms.
-                    </br>
-                </div>
-                <h2>What is expected</h2>
-                <div style="color: #ffffff;">The goal of this project is to be able to train Autopilot RL agents using
-                    neural networksand
-                    Policy
-                    Gradient algorithms. The proposed autopilot should be able to performvarious aircraft maneuvers
-                    such
-                    as
-                    descent/ascent and left/right turns as required bya given flight plan. During the course of this
-                    project, we will explore different RLstrategies in order to determine the most suitable approach
-                    for
-                    our
-                    particular use-casevis- ́a-vis a comparative analysis.
-                </div>
-                <br>
+                    air transport using Machine Learning Algorithms.
+                </p>
+			</div>
+			<div class="row subheadings">About</div>
+			<div class="row class1">
+               <p class="about">The goal of this project is to be able to train Autopilot RL agents using
+                    neural networks and Policy Gradient algorithms. The proposed autopilot should be able to perform various 
+					aircraft maneuvers such as descent/ascent and left/right turns as required by a given flight plan. During 
+					the course of this project, we will explore different RL strategies in order to determine the most suitable approach
+					for our particular use-case vis-à-vis a comparative analysis.
+				</p>
+                
             </div>
 
 
-            <div class="row">
-                <img src="airplane 2.jpg" alt="">
+            <div class="text-center">
+                <img class="landing_image" src="airplane 2.jpg" alt="">
             </div>
 
 
-            <div class="he" style="height: 10px;"></div>
-            <div class="row subheadings">Project Documentation</div>
-            <div class="he" style="height: 10px;"></div>
+            <div class="row subheadings" id="docs">Project Documentation</div>
 
             <!-- <div class="container"> -->
-            <div class="row he">
+            <div class="row">
                 <div class="col-lg-4 text-center">
                     <iframe src="CS_527___Engineering_Design_Document_v1_0.pdf" style="width:300px; height:400px;"
                         frameborder="0"></iframe>
@@ -246,73 +126,68 @@
                 </div>
             </div>
 
-            <div class="he" style="height: 10px;"></div>
-            <div class="row subheadings">Demo</div>
-            <div class="he" style="height: 10px;"></div>
+            <div class="row subheadings" id="demo">Demo</div>
 
-
-
-            <div class="he" style="height: 10px;"></div>
-            <div class="row subheadings">People</div>
+            <div class="row subheadings" id="team">People</div>
             <!-- people -->
-            <div class="class4" style="color: #ffffff;">
+            <div class="class4">
                 <div style="height: 10px;"></div>
                 <!-- row 1 teamMates -->
-                <div class="row">
-                    <div class="col-lg-4 center11">
+                <div class="row people">
+                   
+					<div class="col-lg-4 center11">
                         <img class="rounded-circle" src="Martin 527.jpeg" alt="Generic placeholder image" width="140"
                             height="140">
-                        <div>He Huang
+                        <div class="name">
+							<a  href="https://www.linkedin.com/in/he-martin-huang-199a02136" target="_blank">
+								He Huang
+							</a>
                         </div>
-                        <p>USC MS CS in Intelligent Robotics <a class=""
-                                href="https://www.linkedin.com/in/he-martin-huang-199a02136" target="_blank"
-                                role="button">
-                                <i class="fa fa-linkedin" aria-hidden="true"></i> </a>
-                        </p>
-
                     </div>
 
                     <div class="col-lg-4 center11">
                         <img class="rounded-circle" src="Bookstore Profile Pic.jpg" alt="Generic placeholder image"
                             width="140" height="140">
-                        <div>Rengapriya Aravindan
+                        <div class="name">
+							<a href="https://www.linkedin.com/in/rengapriya-aravind/" target="_blank">
+								Rengapriya Aravindan
+							</a>
                         </div>
-                        <p>USC MS CS <a class="" href="https://www.linkedin.com/in/rengapriya-aravind/" target="_blank"
-                                role="button"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a></p>
-
                     </div>
-
 
                     <div class="col-lg-4 center11">
                         <img class="rounded-circle" src="Oneeb 527.jpeg" alt="Generic placeholder image" width="140"
                             height="140">
-                        <div>Muhammad Oneeb Ul Haq Khan
+                        <div class="name">
+							<a class=""  href="https://www.linkedin.com/in/oneebhkhan/" target="_blank">
+								Muhammad Oneeb Ul Haq Khan
+							</a>
                         </div>
-                        <p>USC MS CS <a class="" href="https://www.linkedin.com/in/oneebhkhan/" target="_blank"
-                                role="button"><i class="fa fa-linkedin" aria-hidden="true"></i> </a></p>
-
                     </div><!-- /.col-lg-4 -->
                 </div><!-- /.row -->
-                <div class="row">
-                    <div class="col-lg-4 center11">
+
+                <div class="row people">
+                    <div class="col-lg-4 center11 text">
                         <img class="rounded-circle" src="rizwan malik 527.jpg" alt="Generic placeholder image"
                             width="140" height="140">
-                        <div>Muhammad Rizwan Malik
+                        <div class="name">
+							<a  href="https://www.linkedin.com/in/rizwanmalik89/" target="_blank">
+								Muhammad Rizwan Malik 
+							</a>
                         </div>
-                        <p> USC MS CS <a class="" href="https://www.linkedin.com/in/rizwanmalik89/" target="_blank"
-                                role="button"> <i class="fa fa-linkedin" aria-hidden="true"></i> </a></p>
-
                     </div>
+
                     <div class="col-lg-4 center11">
                         <img class="rounded-circle" src="Krishnateja 527.jpeg" alt="Generic placeholder image"
                             width="140" height="140">
-                        <div>Krishnateja Gunda
+                        <div class="name">
+							<a href="https://www.linkedin.com/in/krishnatejagunda2205/" target="_blank">
+								Krishnateja Gunda
+							</a>
                         </div>
-                        <p> USC MS CS <a class="" href="https://www.linkedin.com/in/krishnatejagunda2205/"
-                                target="_blank" role="button"><i class="fa fa-linkedin" aria-hidden="true"></i> </a></p>
-
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
