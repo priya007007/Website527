@@ -53,7 +53,7 @@
 <body>
     <div class="all">
         <nav class="navbar navbar-expand-lg navbar-custom">
-            <a class="navbar-brand" href="#">Deep Learning Based Autopilot System</a>
+            <a class="navbar-brand" href="#home">Deep Learning Based Autopilot System</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -65,9 +65,6 @@
             </div> -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-                    </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="#docs">Project Documentation</a>
                     </li>
@@ -86,24 +83,37 @@
                 <h1>Reinforcement Learning Based Autopilot</h1>
                 <p class="intro">
                     Establishing autonomous flights will have big consequences for the future and the way the
-                    aviation industry works. Keeping this in mind, we will explore the possibility of autonomous
-                    air transport using Machine Learning Algorithms.
+                    aviation industry works. To that end, will explore the feasibility of RL algorithms in autonomous flight by breaking this gargantual goal
+					into smaller ones.
                 </p>
 			</div>
-			<div class="row subheadings">About</div>
-			<div class="row class1">
-               <p class="about">The goal of this project is to be able to train Autopilot RL agents using
-                    neural networks and Policy Gradient algorithms. The proposed autopilot should be able to perform various 
-					aircraft maneuvers such as descent/ascent and left/right turns as required by a given flight plan. During 
-					the course of this project, we will explore different RL strategies in order to determine the most suitable approach
-					for our particular use-case vis-à-vis a comparative analysis.
-				</p>
-                
+
+			<div class="text-center">
+                <img class="landing_image" src="Pictures/xplane-pic.png" alt="">
             </div>
 
-
-            <div class="text-center">
-                <img class="landing_image" src="airplane 2.jpg" alt="">
+			<!-- <div class="row subheadings">About</div> -->
+			<hr size="30">
+			<div class="row class1">
+               <p class="about">The goal of this project is to be able to train Autopilot RL agents using
+                    Policy Gradient algorithms. While our goal is to create an Agent that is capable of various flight maneuvers,
+					for the course of this project we will be working on implementing an agent capable of changing its altitude as desired. 
+					During the course of this project, we will explore different RL strategies in order to determine the most suitable approach
+					for our application.
+					<br>
+					<br>
+					We have discussed the implementation of all the agents and their performances in our project documentation below.
+					<br> 
+					The agents that we have implemented are:
+				</p>
+				<p class="about">
+					<ol> 
+						<li>REINFORCE</li>
+						<li>Proximal Policy Optimization (PPO)</li>
+						<li>Deep Deterministc Policy Gradient (DDPG)</li>
+						<li>Soft Actor-Critic (SAC)</li>
+					</ol>
+				</p>                
             </div>
 
 
@@ -112,32 +122,43 @@
             <!-- <div class="container"> -->
             <div class="row">
                 <div class="col-lg-4 text-center">
-                    <iframe src="CS_527___Engineering_Design_Document_v1_0.pdf" style="width:300px; height:400px;"
+                    <iframe src="Documents/CS_527___Engineering_Design_Document_v1_0.pdf" style="width:300px; height:400px;"
                         frameborder="0"></iframe>
-                    <div class="name center11"> <a href="CS_527___Engineering_Design_Document_v1_0.pdf" target="_blank">
-                            <span class="spans"> Engineering Design Document</span></a> </div>
+                    <div class="name center11"> 
+						<a href="Documents/CS_527___Engineering_Design_Document_v1_0.pdf" target="_blank">
+                            <span class="spans"> Engineering Design Document</span>
+						</a>
+						<br>[To Be Updated]</br> 
+					</div>
                 </div>
 
 
                 <div class="col-lg-4 text-center">
-                    <iframe src="CS_527___Technical_Paper_v1_0.pdf" style="width:300px; height:400px;"
+                    <iframe src="Documents/CS_527___Technical_Paper_v1_0.pdf" style="width:300px; height:400px;"
                         frameborder="0"></iframe>
-                    <div class="name center11"> <a href="CS_527___Technical_Paper_v1_0.pdf" target="_blank"> <span
-                                class="spans"> Technical
-                                Paper </span></a>
+                    <div class="name center11"> 
+						<a href="Documents/CS_527___Technical_Paper_v1_0.pdf" target="_blank"> 
+							<span class="spans"> Technical Paper</span>
+						</a>
+						<br>[To Be Updated]</br>
                     </div>
 
                 </div>
                 <div class="col-lg-4 text-center">
-                    <iframe src="Master Slides - XPlane Autopilot (pdf).pdf" style="width:300px; height:400px;"
+                    <iframe src="Documents/Final Presentation.pdf" style="width:300px; height:400px;"
                         frameborder="0"></iframe>
-                    <div class="name center11"> <a href="Master Slides - XPlane Autopilot (pdf).pdf" target="_blank">
-                            <span class="spans"> Presentation </span></a> </div>
+                    <div class="name center11"> <a href="Documents/Final Presentation.pdf" target="_blank">
+                            <span class="spans">Final Presentation </span></a> </div>
 
                 </div>
             </div>
 
             <div class="row subheadings" id="demo">Demo</div>
+			<div class="col text-center">
+				<iframe id="ytplayer" type="text/html" width="640" height="360"
+					src="http://www.youtube.com/embed/qSqVVswa420?autoplay=0&origin=http://example.com"
+					frameborder="0"></iframe>
+			</div>
 
             <div class="row subheadings" id="team">People</div>
             <!-- people -->
@@ -147,7 +168,7 @@
                 <div class="row people">
                    
 					<div class="col-lg-4 center11">
-                        <img class="rounded-circle" src="Martin 527.jpeg" alt="Generic placeholder image" width="140"
+                        <img class="rounded-circle" src="Team_Pictures/Martin 527.jpeg" alt="Generic placeholder image" width="140"
                             height="140">
                         <div class="name">
 							<a  href="https://www.linkedin.com/in/he-martin-huang-199a02136" target="_blank">
@@ -157,7 +178,7 @@
                     </div>
 
                     <div class="col-lg-4 center11">
-                        <img class="rounded-circle" src="Bookstore Profile Pic.jpg" alt="Generic placeholder image"
+                        <img class="rounded-circle" src="Team_Pictures/Bookstore Profile Pic.jpg" alt="Generic placeholder image"
                             width="140" height="140">
                         <div class="name">
 							<a href="https://www.linkedin.com/in/rengapriya-aravind/" target="_blank">
@@ -167,7 +188,7 @@
                     </div>
 
                     <div class="col-lg-4 center11">
-                        <img class="rounded-circle" src="Oneeb 527.jpeg" alt="Generic placeholder image" width="140"
+                        <img class="rounded-circle" src="Team_Pictures/Oneeb 527.jpeg" alt="Generic placeholder image" width="140"
                             height="140">
                         <div class="name">
 							<a class=""  href="https://www.linkedin.com/in/oneebhkhan/" target="_blank">
@@ -179,7 +200,7 @@
 
                 <div class="row people">
                     <div class="col-lg-4 center11 text">
-                        <img class="rounded-circle" src="rizwan malik 527.jpg" alt="Generic placeholder image"
+                        <img class="rounded-circle" src="Team_Pictures/rizwan malik 527.jpg" alt="Generic placeholder image"
                             width="140" height="140">
                         <div class="name">
 							<a  href="https://www.linkedin.com/in/rizwanmalik89/" target="_blank">
@@ -189,7 +210,7 @@
                     </div>
 
                     <div class="col-lg-4 center11">
-                        <img class="rounded-circle" src="Krishnateja 527.jpeg" alt="Generic placeholder image"
+                        <img class="rounded-circle" src="Team_Pictures/Krishnateja 527.jpeg" alt="Generic placeholder image"
                             width="140" height="140">
                         <div class="name">
 							<a href="https://www.linkedin.com/in/krishnatejagunda2205/" target="_blank">

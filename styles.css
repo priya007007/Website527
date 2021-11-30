@@ -10,11 +10,11 @@
 }
 
 .nav-link {
-	color: #000000;
+	color: #022261;
 }
 
 .nav-link:hover {
-	color: black;
+	color: magenta;
 }
 
 .all {
@@ -27,15 +27,23 @@ h1 {
 	padding-bottom: 5px;
 }
 
-p.intro, p.about {
+p.intro, p.about, ol {
 	color: #fff;
 	margin-bottom: 0px;
 	font-size: 16px;
 }
 
-p.about {
+p.intro, p.about {
 	margin-bottom: 10px;
 }
+
+img.landing_image {
+	margin-top: 10px;
+	height: 100%;
+	width: 500px;
+}
+
+
 
 .subheadings {
 	background-color: #022261;
@@ -52,6 +60,7 @@ p.about {
 	font-size: 20px;
 	font-weight: normal;
 }
+
 
 .spans:hover {
 	color: #fff
